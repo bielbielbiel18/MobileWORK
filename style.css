@@ -1,0 +1,77 @@
+/* Estilo geral para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Reduza o tamanho dos títulos e ajuste o espaçamento */
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    #biografia-jogos h2, #exposicao h2, #memoria h2 {
+        font-size: 1.5rem;
+    }
+
+    .jogo h3 {
+        font-size: 1.5rem;
+    }
+
+    .jogo, .balao-memoria {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    /* Ajuste das seções e blocos de jogos para ocuparem a largura completa */
+    #biografia-jogos, #exposicao, #memoria, #quiz-link {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .exposicao-jogo {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .imagem-jogo {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    /* Ajuste do campo de entrada e botão para ocuparem 100% da largura */
+    #entrada-memoria {
+        width: 100%;
+        font-size: 1rem;
+        height: 100px;
+    }
+
+    #botao-memoria {
+        width: 100%;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    /* Centralização do link e QR Code do Quiz */
+    #quiz-link p, #quiz-link img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* Rodapé centralizado e com fonte menor */
+    footer {
+        font-size: 0.8rem;
+        padding: 20px 10px;
+    }
+
+    /* Balões de memória ajustados */
+    #balao-memoria-container {
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .balao-memoria {
+        max-width: 100%;
+    }
+}
